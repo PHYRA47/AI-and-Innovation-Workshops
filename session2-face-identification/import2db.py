@@ -1,3 +1,6 @@
+# Docker connection
+# docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_DATABASE=images_db -e MYSQL_USER=my_user -e MYSQL_PASSWORD=my_password -p 3306:3306 -d mysql:latest
+
 import mysql.connector
 from mysql.connector import Error
 from PIL import Image
