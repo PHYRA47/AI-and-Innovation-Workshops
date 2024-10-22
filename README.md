@@ -41,6 +41,8 @@ Each session has its own unique project, where we build exciting applications us
 - **GUI Framework**: PyQt5 🖥️
 - **API Hosting**: Colab + Ngrok 🌐
 - **Face Recognition**: OpenCV and custom models 📸
+- **LLM Model**: openbmb/MiniCPM-V-2_6-int4 🤖
+- **Multi-modal Processing**: Text + Image inputs for LLM responses 📝🖼️
 
 ## 📂 Repository Structure
 - Each session's project is stored in its respective folder with the code and resources.
