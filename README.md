@@ -25,9 +25,16 @@ Each session has its own unique project, where we build exciting applications us
 - **Instructions**:
     - Host the LLM API on Colab using Ngrok for public access.
     - Build a simple GUI to chat with the LLM and display responses. 🧠💬
+ 
+### 4️⃣ Session 4: Multi-Modal LLMs
+- **Task**: Create a multi-modal LLM app with text and image input.
+- **Instructions**:
+    - Host the [**openbmb/MiniCPM-V-2_6-int4**](https://huggingface.co/openbmb/MiniCPM-V-2_6-int4) model API on Colab using ngrok for public access.
+    - Create two POST routes:
+        - **Route 1**: Send a text prompt via a POST request and get a response from the LLM. 📝➡️🤖
+        - **Route 2**: Send a text prompt + image, and receive a response from the LLM. 🖼️➕📝➡️🤖
+    - Build a GUI to utilize these routes and interact with the model.
 
-### 4️⃣ Session 4: (Comming Soon) 
-- ...
 
 ## 🛠️ Technologies Used
 - **Language**: Python 🐍
